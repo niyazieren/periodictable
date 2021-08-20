@@ -1,0 +1,32 @@
+.periodicTable{
+	display: grid;
+	grid-template-columns: repeat(18, 96px);
+	grid-template-rows: repeat(10, 64px);
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.element {
+
+  border: 1px solid grey;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.number{
+	
+  font-size: 10px;
+  position: absolute;
+  top: 2.5px;
+  left: 2.5px;
+}
+
+.element:hover{
+
+  transform: scale(1.5, 1.5);
+  z-index: 1;
+}
