@@ -28,7 +28,8 @@ const App = () =>{
 						gridColumn: element.xpos,
 						gridRow: element.ypos,
 						borderColor : colorMap[element.category],
-						backgroundColor : "grey",
+						backgroundColor : "black",
+						color :colorMap[element.category]
 
 					}}
 				>
