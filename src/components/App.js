@@ -3,17 +3,18 @@ import data from './data';
 import "./style.css";
 
 const colorMap ={
-	"noble gas":"orange",
-	"alkaline earth metal": "blue",
+	"noble gas":"#3232d1",
+	"alkaline earth metal": "yellow",
 	"actinide": "purple",
-	"diatomic nonmetal": "#8c8ba3",
-	"alkali metal":"yellow",
-	"transition metal":"red",
-	"post-transition metal": "#cdcce0",
-	"lanthanide":"#514aaf",
+	"diatomic nonmetal": "green",
+	"alkali metal":"#e3b354",
+	"transition metal":"orange",
+	"post-transition metal": "aqua",
+	"lanthanide":"pink",
 	"metalloid":"teal",
-	"polyatomic nonmetal":"#818096",
+	"polyatomic nonmetal":"green",
 	"unknown":"#e5e4ed",
+	
 };
 
 const App = () =>{
@@ -34,9 +35,9 @@ const App = () =>{
 					}}
 				>
 					<div className="symbol">{element.symbol}</div>
-					<div className="number" >{element.number}</div>
-
-
+					<div className="number">{element.number}</div>
+					<div className="names">{element.name}</div>
+					<div className="atomicMass">{element.atomic_mass}</div>
 				</div>
 			))
 		}
