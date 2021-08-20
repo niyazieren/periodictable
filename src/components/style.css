@@ -24,6 +24,10 @@
   top: 2.5px;
   left: 2.5px;
 }
+.symbol{
+  font-size: 24px;
+  position: absolute;
+}
 
 .element:hover{
 
