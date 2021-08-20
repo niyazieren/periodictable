@@ -1,7 +1,9 @@
 .periodicTable{
 	display: grid;
-	grid-template-columns: repeat(18, 96px);
-	grid-template-rows: repeat(10, 64px);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+	grid-template-columns: repeat(18, 72px);
+	grid-template-rows: repeat(10, 72px);
 	position: absolute;
 	top: 40%;
 	left: 50%;
@@ -9,7 +11,7 @@
 }
 .element {
 
-  border: 1px solid grey;
+  border: 2px solid grey;
   display: flex;
   position: relative;
   align-items: center;
@@ -25,10 +27,20 @@
   left: 2.5px;
 }
 .symbol{
+  top: 8px;
   font-size: 24px;
   position: absolute;
 }
-
+.names{
+  font-size: 12px;
+  top: 30px;
+  position: absolute;
+}
+.atomicMass{
+  font-size: 12px;
+  top: 45px;
+  position: absolute;
+}
 .element:hover{
 
   transform: scale(1.5, 1.5);
