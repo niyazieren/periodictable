@@ -33,7 +33,7 @@ const App = () =>{
 
 					}}
 				>
-					{element.symbol}
+					<div className="symbol">{element.symbol}</div>
 					<div className="number" >{element.number}</div>
 
 
