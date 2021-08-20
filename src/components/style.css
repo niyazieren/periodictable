@@ -32,12 +32,12 @@
   position: absolute;
 }
 .names{
-  font-size: 12px;
-  top: 30px;
+  font-size: 10px;
+  top: 34px;
   position: absolute;
 }
 .atomicMass{
-  font-size: 12px;
+  font-size: 8px;
   top: 45px;
   position: absolute;
 }
